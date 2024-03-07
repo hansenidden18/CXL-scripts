@@ -23,7 +23,7 @@ wget https://datarepo.eng.ucsd.edu/mcauley_group/data/amazon_v2/metaFiles2/meta_
 
 
 #PREPROCESSING
-cd ../../1_preprocess/scripts/
+cd ../../../1_preprocess/scripts/
 python3 amazon_parse_divide_filter.py Office_Products
 
 #PARTITIONING
