@@ -1,1 +1,3 @@
-# CXL-scripts
+# Documentation for running the workloads
+
+
