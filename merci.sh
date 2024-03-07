@@ -1,6 +1,6 @@
 #!/bin/bash
 
-export HOME="/mnt/sda4/run/"
+export HOME="/mnt/sda4/run"
 
 #mem_sizes=( 1.25 1.5 2.0 9.0 )
 mem_sizes=( 1.5)
@@ -15,6 +15,8 @@ mkdir -p $merci_dir
 apt install g++-9
 
 mkdir -p data/1_raw_data/amazon
+
+./control_dir_path.sh amazon_Office_Products 2748
 
 cd data/1_raw_data/amazon
 
